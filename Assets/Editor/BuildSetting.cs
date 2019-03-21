@@ -10,7 +10,7 @@ public class BuildPlayerExample : MonoBehaviour
     public static void MyBuild()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
-        buildPlayerOptions.scenes = new[] { "Assets/Scene1.unity"};
+        buildPlayerOptions.scenes = new[] { "Assets/Test1.unity"};
         buildPlayerOptions.locationPathName = "WebGLBuild";
         buildPlayerOptions.target = BuildTarget.WebGL;
         buildPlayerOptions.options = BuildOptions.None;
